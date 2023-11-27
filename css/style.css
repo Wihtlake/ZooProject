@@ -37,7 +37,8 @@ li{
      margin: 0 auto;
 }
 .header_main { 
-     background-image: url('img/Cat_background.jpg');
+     /* background-image: url('img/Cat_background.jpg'); */
+     background-image: url('https://zastavok.net/main/animals/169343340785.jpg');
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center center;
