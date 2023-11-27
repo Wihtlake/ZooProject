@@ -258,10 +258,10 @@ li{
 
 @font-face {
      font-family: Inter-Thin;
-     src: url('fonts/static/Inter-Thin.ttf');
+     src: url(/fonts/static/Inter-Thin.ttf);
 }
 
 @font-face {
      font-family: Inter;
-     src: url('fonts/Inter-VariableFont_slnt_wght.ttf');
+     src: url(/fonts/Inter-VariableFont_slnt_wght.ttf);
 }
