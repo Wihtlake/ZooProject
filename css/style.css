@@ -1,0 +1,265 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Inter';
+     font-weight: 100;
+     scroll-behavior: smooth;
+}
+a{
+     text-decoration: none;
+}
+li{
+     list-style: none;
+}
+.D-flex{
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+}
+
+.D-J-sb{
+     justify-content: space-between;
+}
+.width{
+     max-width: 1285px;
+     margin: 0 auto;
+}
+.header_main { 
+     background: url('/img/64136-koshka_tabbi_okras.jpg');
+     background-position: center center;
+}
+.header_block {
+     background: rgba(205, 203, 166, 0.37);
+     backdrop-filter: blur(2px);
+}
+.header_width{
+     min-height: 80px;
+     color: #fff;
+}
+.header_width a, h1{
+     color: #fff;
+     font-weight: 100;
+     font-size: 15px;
+     letter-spacing: 4.8px;
+     font-family: Inter-Thin;
+}
+.header_width a{
+     position: relative;
+     cursor: pointer;
+}
+
+.header_width a:after {
+     content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 1.5px; /* Высота линии */
+    background-color: #d9d1c4; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.7s; /* Время эффекта */
+}
+
+.header_width a:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 1.5px; /* Высота линии */
+    background-color: #d9d1c4; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+.header_title h1{
+     color: #FFF;
+     font-family: Inter;
+     font-size: 36px;
+     font-style: normal;
+     font-weight: 100;
+     line-height: normal;
+     letter-spacing: 11.52px;
+     text-transform: uppercase;
+}
+.header_menu li {
+     margin-left: 50px;
+     text-transform: uppercase;
+
+}
+.slider_main {
+     min-height: 89vh;
+}
+.slider_block {
+     color: #fff;
+     margin-top: 147px;
+}
+.slider_block h1{
+     color: #fff;
+     font-size: 64px;
+     font-weight: 100;
+     line-height: normal;
+     margin-bottom: 30px;
+
+}
+.slider_block p{
+     font-size: 32px;
+     margin-bottom: 100px;
+}
+.slider_block a{
+     background: rgba(205, 203, 166, 0.37);
+     backdrop-filter: blur(2px);
+     color: #fff;
+     padding: 20px 167px;
+     color: #FFF;
+     text-align: center;
+     font-family: Inter;
+     font-size: 32px;
+     font-style: normal;
+     font-weight: 200;
+     line-height: normal;
+     transition: .2s background ease-in-out, .2s color ease-in-out;
+
+
+}
+.slider_block a:hover{
+     background: rgb(205, 203, 166);
+     color: #000000;
+     transition: .2s background ease-in-out, .2s color ease-in-out;
+
+}
+.about_main {
+     min-height: 472px;
+     background: #CDCBA6;
+}
+.about_block {
+     padding-bottom: 102px;
+     padding-top: 79px;
+     text-align: center;
+}
+.about_block h1{
+     color: #000;
+     text-align: center;
+     font-family: Inter;
+     font-size: 64px;
+     font-style: normal;
+     font-weight: 100;
+     line-height: normal;
+     padding-bottom: 21px;
+}
+.about_block p{
+     color: #000;
+     text-align: center;
+     font-family: Inter;
+     font-size: 36px;
+     font-style: normal;
+     font-weight: 100;
+     line-height: normal;
+}
+.product_main {
+}
+.product_block{
+     padding-top: 84px ;
+}
+.product_block h1{
+     color: #000;
+     text-align: center;
+     font-family: Inter;
+     font-size: 64px;
+     font-style: normal;
+     font-weight: 100;
+     line-height: normal;
+}
+.product_flex {
+     min-height: 100vh;
+     align-items: start;
+}
+
+.product_flex {
+}
+.D-flex {
+}
+.width {
+}
+.product_card {
+     margin: 129px 0;
+}
+.product_card_img {
+}
+.product_card_text {
+     padding-left: 17px;
+}
+.product_card_text h2{ 
+     margin-top: 14px;
+     color: #000;
+     font-family: Inter;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 200;
+     line-height: normal;
+}
+.product_card_text p{ 
+     margin-top: 14px;
+
+     color: #000;
+     font-family: Inter;
+     font-size: 24px;
+     font-style: normal;
+     font-weight: 100;
+     line-height: normal;
+}
+.product_card_button {
+     margin: 33px auto;
+     max-width: 317px;
+
+     
+}
+.product_card_button a{
+     text-align: center;
+     padding: 11px 47px;
+     background: #D9D9D9;
+     color: #000;
+     text-align: center;
+     font-family: Inter;
+     font-size: 24px;
+     font-style: normal;
+     font-weight: 100;
+     line-height: normal;
+     transition: .2s all ease-in-out;
+
+}
+.product_card_button a:hover{
+     background: #CDCBA6;
+     color: #000;
+     transition: .2s all ease-in-out;
+}
+.product_card {
+     width: 357px;
+     min-height: 473px;
+     background: #E9E9E9;
+}
+.product_card_img{
+     max-width: 356px;
+     min-height: 283px;
+     background: #ffffff;
+}
+.product_card_img img{
+     width: 356px;
+     height: 283px;
+     object-fit: cover;
+}
+.sale_main {
+}
+
+
+
+
+@font-face {
+     font-family: Inter-Thin;
+     src: url('/fonts/static/Inter-Thin.ttf');
+}
+
+@font-face {
+     font-family: Inter;
+     src: url('/fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
